@@ -33,3 +33,17 @@ This project focuses on analyzing user behavior and subscription details to lay 
 * **Goal:** To structure and clean behavioral data so it can be effectively fed into predictive classification models to identify at-risk customers (the `Churn` target variable).
 
 **Technologies Used:** `pandas`, `kagglehub`, `matplotlib`, `seaborn`
+
+
+### 3. Visual Clothes Recommendation System (`ClothesRecommandationSystem.ipynb`)
+**Description:**
+This project implements a reverse-image search and visual recommendation engine for fashion and apparel. It allows users to upload an image of a clothing item and automatically retrieves the most visually similar items from a catalog.
+
+
+
+**Key Features & Techniques:**
+* **Image Feature Extraction:** Utilizes Deep Learning computer vision models to process images and extract high-dimensional mathematical embeddings that represent the style, color, and pattern of the clothing.
+* **Similarity Matching:** Computes nearest neighbors using distance metrics (like Cosine Similarity) to find the closest matches between the user's uploaded image and the inventory database.
+* **Interactive File Uploads:** Features custom JavaScript and Colab widget integration, allowing users to seamlessly upload their own local images directly into the notebook for real-time recommendations.
+
+**Technologies Used:** `Python`, Deep Learning Frameworks (e.g., `TensorFlow`/`Keras` or `PyTorch`), `numpy`, `matplotlib` (for displaying images), `scikit-learn`
