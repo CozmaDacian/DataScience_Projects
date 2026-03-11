@@ -3,7 +3,7 @@
 This repository contains two distinct data science projects: a sophisticated Graph-Based Movie Recommendation System and a Customer Churn Prediction analysis. 
 
 
-### 1. IMDB Movie Analysis & Recommendation System (`ImDb_Movie_Review (1).ipynb`)
+### 1. IMDB Movie Analysis & Recommendation System (`ImDb_Movie_Review.ipynb`)
 **Description:**
 This project explores the IMDB Top 1000 movies dataset. It goes beyond basic EDA by utilizing Natural Language Processing (NLP) for data imputation, advanced feature engineering, and building a hybrid Markov Chain recommendation system.
 
@@ -18,7 +18,7 @@ This project explores the IMDB Top 1000 movies dataset. It goes beyond basic EDA
 
 ---
 
-### 2. Customer Churn Prediction (`ChurnPrediction (1).ipynb`)
+### 2. Customer Churn Prediction (`ChurnPrediction.ipynb`)
 **Description:**
 This project focuses on analyzing user behavior and subscription details to lay the groundwork for predicting customer retention. It automatically fetches the latest data via `kagglehub` and processes it for machine learning classification.
 
